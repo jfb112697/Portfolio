@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/tabs.css">
+	<script type="text/javascript" src="vendor/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="vendor/jquery.hashchange.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.easytabs.min.js"></script>
+	<script type="text/javascript">
+    $(document).ready( function() {
+      $('#tab-container').easytabs();
+    });
+	</script>
+
+</head>
+<section>
+	<div id="topbar">
+		<h1 class="center" id="title">Jeremy Blair</h1>
+	</div>
+</section>
+<section>
+	<div id="container">
+		<article>
+			<div class="article">
+				<h2>What I do</h2>
+				<div id="tab-container" class="tab-container">
+					<ul class='etabs'>
+						<li class='tab'><a href="#tabs1-html">Web Development</a></li>
+						<li class='tab'><a href="#tabs1-php">PHP</a></li>
+						<li class='tab'><a href="#tabs1-mysql">Working with MySQL</a></li>
+					</ul>
+					<div id="tabs1-html">
+						<h3>Well, you're here aren't you?</h3>
+						<p>I've been working in web development for 4 years now.</p>
+						<!-- content -->
+					</div>
+					<div id="tabs1-php">
+						<h3>PHP Work</h3>
+						<!-- content -->
+					</div>
+					<div id="tabs1-mysql">
+						<h3>MySQL Work</h3>
+						<!-- content -->
+					</div>
+				</div>
+			</div>
+		</article>
+	</div>
+</section>
+</body>
